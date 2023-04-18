@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #0c5f8b;
+}
+.main{
+    width: 70%;
+    height: 100vh;
+    background: none;
+    position: relative;
+    margin: auto;  
+}
+.box{
+    width: 100%;
+    height: 100vh;
+    background: url(../image/im.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative; 
+    margin: auto; 
+    
+}
+.box2{
+    border-radius: 10px;
+    width: 65%;
+    height: 80%;
+    background: #0c5f8b;
+    border: #14a1ed 6px solid;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    box-sizing: border-box;
+    box-shadow: 0 0px 30px 30px rgba(0, 0, 0,0.3);
+}
+.box3{
+    width: 85%;
+    height: 80%;
+    background: none;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    box-sizing: border-box;
+}
+.header{
+    text-align: center;
+
+}
+h1{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+blockquote{
+    color: white;
+    font-size: medium;
+}
+.name{
+    width: 100%;
+    height: auto;
+    background: none;
+    margin-top: 40px;
+}
+
+input{
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
+    border: none;
+    display: block;
+    margin-bottom: 30px;
+    background: none;
+    border-bottom: 2px solid #14a1ed;   
+    font-size: medium;
+    color: #14a1ed;
+}
+input:focus{
+    color: black;
+    outline: none;
+}
+/* ::-webkit-input-placeholder{
+    color: #14a1ed;
+} */
+.message{
+    width: 100%;
+    height: auto;
+    background: none;
+    margin-top: 40px;
+}
+.text{
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    max-height: 40px;
+    min-width: 100%;
+    min-height: 40px;
+    border: none;
+    background: none;
+    outline: none;
+    display: block;
+    border-bottom:  2px solid #14a1ed;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #14a1ed;
+}
+textarea:focus{
+    color: black;
+}
+.submit{
+    text-align: center;
+}
+.submit input{
+    border-radius: 5px;
+    box-shadow: 0 0px 30px 1px rgba(0, 0, 0,0.3);
+    border: none;
+    outline: 3px solid #114665;
+    display: inline-block;
+    width: auto;
+    padding: 10px 25px;
+    color: white;
+    margin-top: 20px;
+    background: rgba(19, 137, 201,0.6);
+}
